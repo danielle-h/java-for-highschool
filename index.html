@@ -1,7 +1,47 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+title: "Java לבגרות"
+layout: splash
+permalink: /
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/java2.png
+  caption: "Photo credit: **Danielle Honigstein**"
+excerpt: "תצטרפו אליי למסע: משחקים, ג'אווה ובגרות"
+intro: 
+  - excerpt: 'כל החומר, כל הקוד, בצורה מסודרת. מבוסס על הוראה לבגרות בכיתה יא ויב בבית הספר המסורתי בירושלים'
+feature_row:
+  - image_path: /assets/images/while-java.png
+    alt: "לולאה בג'אווה"
+    title: "יסודות"
+    excerpt: "יסודות - יחידות 1-2"
+    url: "/java-basics/"
+    btn_label: "קראו עוד"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/while-java.png
+    alt: "לולאה בג'אווה"
+    title: "תכנות בסביבת אינטרנט"
+    excerpt: "יחידה 3 - פנימית"
+    url: "/java-internet/"
+    btn_label: "קראו עוד"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/while-java.png
+    alt: "לולאה בג'אווה"
+    title: "מבני נתונים"
+    excerpt: "יחידה 4"
+    url: "/java-data-structures/"
+    btn_label: "קראו עוד"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/while-java.png
+    alt: "לולאה בג'אווה"
+    title: "תכנות מונחה עצמים"
+    excerpt: "יחידה 5"
+    url: "/java-oop/"
+    btn_label: "קראו עוד"
+    btn_class: "btn--primary"
+
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}

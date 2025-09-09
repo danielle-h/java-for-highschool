@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<main id="main" role="main">
+    <article class="doc">
+        <header>
+            <h1>{{ page.title }}</h1>
+        </header>
+
+        <div class="doc-intro">
+            {{ content }}
+        </div>
+
+        <div class="doc-download">
+            <a href="https://docs.google.com/document/d/{{ page.doc_id }}/export?format=pdf" target="_blank">
+                📄 הורד כ-PDF
+            </a>
+            |
+            <a href="https://docs.google.com/document/d/{{ page.doc_id }}/export?format=docx" target="_blank">
+                📝 הורד כ-Word
+            </a>
+        </div>
+
+
+
+        <div class="doc-frame">
+            <iframe src="{{ page.doc_url }}?embedded=true" width="60%" height="800" style="border:none; float:right;">
+            </iframe>
+
+        </div>
+    </article>
+</main>

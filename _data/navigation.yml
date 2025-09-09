@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
+  - title: "יסודות"
     url: /posts/
-  - title: "Categories"
+  - title: "ג'אווה באינטרנט"
     url: /categories/
-  - title: "Tags"
+  - title: "מבני נתונים"
     url: /tags/
-  - title: "About"
+  - title: "תכנות מונחה עצמים"
+    url: /tags/
+  - title: "עליי"
     url: /about/
